@@ -25,7 +25,6 @@ ARCH_ARM_HAVE_TLS_REGISTER := true
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=platy msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 earlycon=msm_hsl_uart,0x78af000 ramoops.mem_address=0x8da00000 ramoops.mem_size=0x100000 ramoops.console_size=0x80000 buildvariant=userdebug user_debug=31 androidboot.bootdevice=msm_sdcc.1 androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_PAGESIZE := 2048
-BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_PATH)/tools/mkbootimg.mk
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --kernel_offset 0x00008000
 
 # Partitions

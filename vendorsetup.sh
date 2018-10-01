@@ -1,1 +1,1 @@
-add_lunch_combo omni_platy-userdebug
+add_lunch_combo cm_platy-userdebug

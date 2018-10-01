@@ -7,17 +7,14 @@ LOCAL_PATH := device/zte/platy
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 #$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-
-# Charger
-PRODUCT_PACKAGES += charger charger_res_images
+ 
+include $(call all-subdir-makefiles)
 
 # Release name
 PRODUCT_RELEASE_NAME := platy
 
 TARGET_SCREEN_HEIGHT := 400
 TARGET_SCREEN_WIDTH := 400
-
-include $(call all-subdir-makefiles)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := platy

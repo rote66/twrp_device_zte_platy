@@ -23,7 +23,7 @@ TARGET_SCREEN_WIDTH := 400
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := platy
-PRODUCT_NAME := cm_platy
+PRODUCT_NAME := lineage_platy
 PRODUCT_BRAND := zte
 PRODUCT_MODEL := Quartz
 PRODUCT_MANUFACTURER := ZTE

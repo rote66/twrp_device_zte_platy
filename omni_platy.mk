@@ -8,6 +8,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 #$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
+# Charger
+PRODUCT_PACKAGES += charger charger_res_images
+
 # Release name
 PRODUCT_RELEASE_NAME := platy
 
